@@ -20,6 +20,10 @@
 		8AF9D28814FD3B5000868B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26914FD3B5000868B43 /* Foundation.framework */; };
 		8AF9D29014FD3B5000868B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D28E14FD3B5000868B43 /* InfoPlist.strings */; };
 		8AF9D29314FD3B5000868B43 /* YureYureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9D29214FD3B5000868B43 /* YureYureTests.m */; };
+		8AF9D29D14FD3C8F00868B43 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D29C14FD3C8F00868B43 /* Twitter.framework */; };
+		8AF9D29F14FD3C9500868B43 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D29E14FD3C9500868B43 /* Accounts.framework */; };
+		8AF9D2A514FD474600868B43 /* saiten.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D2A414FD474600868B43 /* saiten.png */; };
+		8AF9D2A714FD48D400868B43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D2A614FD48D400868B43 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +41,25 @@
 		8AF9D26714FD3B5000868B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AF9D26914FD3B5000868B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AF9D26B14FD3B5000868B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8AF9D26F14FD3B5000868B43 /* YureYure-Info.plist */ = {isa = PBXFileReference; path = "YureYure-Info.plist"; sourceTree = "<group>"; };
+		8AF9D26F14FD3B5000868B43 /* YureYure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YureYure-Info.plist"; sourceTree = "<group>"; };
 		8AF9D27114FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AF9D27314FD3B5000868B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AF9D27514FD3B5000868B43 /* YureYure-Prefix.pch */ = {isa = PBXFileReference; path = "YureYure-Prefix.pch"; sourceTree = "<group>"; };
-		8AF9D27614FD3B5000868B43 /* KMZAppDelegate.h */ = {isa = PBXFileReference; path = KMZAppDelegate.h; sourceTree = "<group>"; };
+		8AF9D27514FD3B5000868B43 /* YureYure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YureYure-Prefix.pch"; sourceTree = "<group>"; };
+		8AF9D27614FD3B5000868B43 /* KMZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMZAppDelegate.h; sourceTree = "<group>"; };
 		8AF9D27714FD3B5000868B43 /* KMZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMZAppDelegate.m; sourceTree = "<group>"; };
-		8AF9D27914FD3B5000868B43 /* KMZViewController.h */ = {isa = PBXFileReference; path = KMZViewController.h; sourceTree = "<group>"; };
+		8AF9D27914FD3B5000868B43 /* KMZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMZViewController.h; sourceTree = "<group>"; };
 		8AF9D27A14FD3B5000868B43 /* KMZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMZViewController.m; sourceTree = "<group>"; };
 		8AF9D27D14FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMZViewController.xib; sourceTree = "<group>"; };
 		8AF9D28414FD3B5000868B43 /* YureYureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YureYureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF9D28514FD3B5000868B43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8AF9D28D14FD3B5000868B43 /* YureYureTests-Info.plist */ = {isa = PBXFileReference; path = "YureYureTests-Info.plist"; sourceTree = "<group>"; };
+		8AF9D28D14FD3B5000868B43 /* YureYureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YureYureTests-Info.plist"; sourceTree = "<group>"; };
 		8AF9D28F14FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8AF9D29114FD3B5000868B43 /* YureYureTests.h */ = {isa = PBXFileReference; path = YureYureTests.h; sourceTree = "<group>"; };
+		8AF9D29114FD3B5000868B43 /* YureYureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YureYureTests.h; sourceTree = "<group>"; };
 		8AF9D29214FD3B5000868B43 /* YureYureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YureYureTests.m; sourceTree = "<group>"; };
+		8AF9D29C14FD3C8F00868B43 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8AF9D29E14FD3C9500868B43 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8AF9D2A414FD474600868B43 /* saiten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saiten.png; sourceTree = "<group>"; };
+		8AF9D2A614FD48D400868B43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF9D29F14FD3C9500868B43 /* Accounts.framework in Frameworks */,
+				8AF9D29D14FD3C8F00868B43 /* Twitter.framework in Frameworks */,
 				8AF9D26814FD3B5000868B43 /* UIKit.framework in Frameworks */,
 				8AF9D26A14FD3B5000868B43 /* Foundation.framework in Frameworks */,
 				8AF9D26C14FD3B5000868B43 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +110,8 @@
 		8AF9D26614FD3B5000868B43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AF9D29E14FD3C9500868B43 /* Accounts.framework */,
+				8AF9D29C14FD3C8F00868B43 /* Twitter.framework */,
 				8AF9D26714FD3B5000868B43 /* UIKit.framework */,
 				8AF9D26914FD3B5000868B43 /* Foundation.framework */,
 				8AF9D26B14FD3B5000868B43 /* CoreGraphics.framework */,
@@ -116,6 +128,8 @@
 				8AF9D27914FD3B5000868B43 /* KMZViewController.h */,
 				8AF9D27A14FD3B5000868B43 /* KMZViewController.m */,
 				8AF9D27C14FD3B5000868B43 /* KMZViewController.xib */,
+				8AF9D2A614FD48D400868B43 /* icon.png */,
+				8AF9D2A414FD474600868B43 /* saiten.png */,
 				8AF9D26E14FD3B5000868B43 /* Supporting Files */,
 			);
 			path = YureYure;
@@ -223,6 +237,8 @@
 			files = (
 				8AF9D27214FD3B5000868B43 /* InfoPlist.strings in Resources */,
 				8AF9D27E14FD3B5000868B43 /* KMZViewController.xib in Resources */,
+				8AF9D2A514FD474600868B43 /* saiten.png in Resources */,
+				8AF9D2A714FD48D400868B43 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

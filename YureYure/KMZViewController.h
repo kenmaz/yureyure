@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface KMZViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *yureLabel;
+- (IBAction)pushYureButton:(id)sender;
 
 @end

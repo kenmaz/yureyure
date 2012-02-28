@@ -7,8 +7,8 @@
 //
 
 #import "KMZAppDelegate.h"
-
 #import "KMZViewController.h"
+
 
 @implementation KMZAppDelegate
 
@@ -22,6 +22,7 @@
     self.viewController = [[KMZViewController alloc] initWithNibName:@"KMZViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
