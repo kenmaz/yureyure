@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF9D26814FD3B5000868B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26714FD3B5000868B43 /* UIKit.framework */; };
+		8AF9D26A14FD3B5000868B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26914FD3B5000868B43 /* Foundation.framework */; };
+		8AF9D26C14FD3B5000868B43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26B14FD3B5000868B43 /* CoreGraphics.framework */; };
+		8AF9D27214FD3B5000868B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D27014FD3B5000868B43 /* InfoPlist.strings */; };
+		8AF9D27414FD3B5000868B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9D27314FD3B5000868B43 /* main.m */; };
+		8AF9D27814FD3B5000868B43 /* KMZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9D27714FD3B5000868B43 /* KMZAppDelegate.m */; };
+		8AF9D27B14FD3B5000868B43 /* KMZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9D27A14FD3B5000868B43 /* KMZViewController.m */; };
+		8AF9D27E14FD3B5000868B43 /* KMZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D27C14FD3B5000868B43 /* KMZViewController.xib */; };
+		8AF9D28614FD3B5000868B43 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D28514FD3B5000868B43 /* SenTestingKit.framework */; };
+		8AF9D28714FD3B5000868B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26714FD3B5000868B43 /* UIKit.framework */; };
+		8AF9D28814FD3B5000868B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF9D26914FD3B5000868B43 /* Foundation.framework */; };
+		8AF9D29014FD3B5000868B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF9D28E14FD3B5000868B43 /* InfoPlist.strings */; };
+		8AF9D29314FD3B5000868B43 /* YureYureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9D29214FD3B5000868B43 /* YureYureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF9D28914FD3B5000868B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF9D25A14FD3B5000868B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF9D26214FD3B5000868B43;
+			remoteInfo = YureYure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF9D26314FD3B5000868B43 /* YureYure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YureYure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF9D26714FD3B5000868B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AF9D26914FD3B5000868B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AF9D26B14FD3B5000868B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AF9D26F14FD3B5000868B43 /* YureYure-Info.plist */ = {isa = PBXFileReference; path = "YureYure-Info.plist"; sourceTree = "<group>"; };
+		8AF9D27114FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AF9D27314FD3B5000868B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF9D27514FD3B5000868B43 /* YureYure-Prefix.pch */ = {isa = PBXFileReference; path = "YureYure-Prefix.pch"; sourceTree = "<group>"; };
+		8AF9D27614FD3B5000868B43 /* KMZAppDelegate.h */ = {isa = PBXFileReference; path = KMZAppDelegate.h; sourceTree = "<group>"; };
+		8AF9D27714FD3B5000868B43 /* KMZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMZAppDelegate.m; sourceTree = "<group>"; };
+		8AF9D27914FD3B5000868B43 /* KMZViewController.h */ = {isa = PBXFileReference; path = KMZViewController.h; sourceTree = "<group>"; };
+		8AF9D27A14FD3B5000868B43 /* KMZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMZViewController.m; sourceTree = "<group>"; };
+		8AF9D27D14FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMZViewController.xib; sourceTree = "<group>"; };
+		8AF9D28414FD3B5000868B43 /* YureYureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YureYureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF9D28514FD3B5000868B43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8AF9D28D14FD3B5000868B43 /* YureYureTests-Info.plist */ = {isa = PBXFileReference; path = "YureYureTests-Info.plist"; sourceTree = "<group>"; };
+		8AF9D28F14FD3B5000868B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AF9D29114FD3B5000868B43 /* YureYureTests.h */ = {isa = PBXFileReference; path = YureYureTests.h; sourceTree = "<group>"; };
+		8AF9D29214FD3B5000868B43 /* YureYureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YureYureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF9D26014FD3B5000868B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D26814FD3B5000868B43 /* UIKit.framework in Frameworks */,
+				8AF9D26A14FD3B5000868B43 /* Foundation.framework in Frameworks */,
+				8AF9D26C14FD3B5000868B43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF9D28014FD3B5000868B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D28614FD3B5000868B43 /* SenTestingKit.framework in Frameworks */,
+				8AF9D28714FD3B5000868B43 /* UIKit.framework in Frameworks */,
+				8AF9D28814FD3B5000868B43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF9D25814FD3B5000868B43 = {
+			isa = PBXGroup;
+			children = (
+				8AF9D26D14FD3B5000868B43 /* YureYure */,
+				8AF9D28B14FD3B5000868B43 /* YureYureTests */,
+				8AF9D26614FD3B5000868B43 /* Frameworks */,
+				8AF9D26414FD3B5000868B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF9D26414FD3B5000868B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D26314FD3B5000868B43 /* YureYure.app */,
+				8AF9D28414FD3B5000868B43 /* YureYureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF9D26614FD3B5000868B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D26714FD3B5000868B43 /* UIKit.framework */,
+				8AF9D26914FD3B5000868B43 /* Foundation.framework */,
+				8AF9D26B14FD3B5000868B43 /* CoreGraphics.framework */,
+				8AF9D28514FD3B5000868B43 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF9D26D14FD3B5000868B43 /* YureYure */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D27614FD3B5000868B43 /* KMZAppDelegate.h */,
+				8AF9D27714FD3B5000868B43 /* KMZAppDelegate.m */,
+				8AF9D27914FD3B5000868B43 /* KMZViewController.h */,
+				8AF9D27A14FD3B5000868B43 /* KMZViewController.m */,
+				8AF9D27C14FD3B5000868B43 /* KMZViewController.xib */,
+				8AF9D26E14FD3B5000868B43 /* Supporting Files */,
+			);
+			path = YureYure;
+			sourceTree = "<group>";
+		};
+		8AF9D26E14FD3B5000868B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D26F14FD3B5000868B43 /* YureYure-Info.plist */,
+				8AF9D27014FD3B5000868B43 /* InfoPlist.strings */,
+				8AF9D27314FD3B5000868B43 /* main.m */,
+				8AF9D27514FD3B5000868B43 /* YureYure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AF9D28B14FD3B5000868B43 /* YureYureTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D29114FD3B5000868B43 /* YureYureTests.h */,
+				8AF9D29214FD3B5000868B43 /* YureYureTests.m */,
+				8AF9D28C14FD3B5000868B43 /* Supporting Files */,
+			);
+			path = YureYureTests;
+			sourceTree = "<group>";
+		};
+		8AF9D28C14FD3B5000868B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF9D28D14FD3B5000868B43 /* YureYureTests-Info.plist */,
+				8AF9D28E14FD3B5000868B43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF9D26214FD3B5000868B43 /* YureYure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF9D29614FD3B5000868B43 /* Build configuration list for PBXNativeTarget "YureYure" */;
+			buildPhases = (
+				8AF9D25F14FD3B5000868B43 /* Sources */,
+				8AF9D26014FD3B5000868B43 /* Frameworks */,
+				8AF9D26114FD3B5000868B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YureYure;
+			productName = YureYure;
+			productReference = 8AF9D26314FD3B5000868B43 /* YureYure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF9D28314FD3B5000868B43 /* YureYureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF9D29914FD3B5000868B43 /* Build configuration list for PBXNativeTarget "YureYureTests" */;
+			buildPhases = (
+				8AF9D27F14FD3B5000868B43 /* Sources */,
+				8AF9D28014FD3B5000868B43 /* Frameworks */,
+				8AF9D28114FD3B5000868B43 /* Resources */,
+				8AF9D28214FD3B5000868B43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF9D28A14FD3B5000868B43 /* PBXTargetDependency */,
+			);
+			name = YureYureTests;
+			productName = YureYureTests;
+			productReference = 8AF9D28414FD3B5000868B43 /* YureYureTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF9D25A14FD3B5000868B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8AF9D25D14FD3B5000868B43 /* Build configuration list for PBXProject "YureYure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AF9D25814FD3B5000868B43;
+			productRefGroup = 8AF9D26414FD3B5000868B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF9D26214FD3B5000868B43 /* YureYure */,
+				8AF9D28314FD3B5000868B43 /* YureYureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF9D26114FD3B5000868B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D27214FD3B5000868B43 /* InfoPlist.strings in Resources */,
+				8AF9D27E14FD3B5000868B43 /* KMZViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF9D28114FD3B5000868B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D29014FD3B5000868B43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AF9D28214FD3B5000868B43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF9D25F14FD3B5000868B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D27414FD3B5000868B43 /* main.m in Sources */,
+				8AF9D27814FD3B5000868B43 /* KMZAppDelegate.m in Sources */,
+				8AF9D27B14FD3B5000868B43 /* KMZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF9D27F14FD3B5000868B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF9D29314FD3B5000868B43 /* YureYureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF9D28A14FD3B5000868B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF9D26214FD3B5000868B43 /* YureYure */;
+			targetProxy = 8AF9D28914FD3B5000868B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AF9D27014FD3B5000868B43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF9D27114FD3B5000868B43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AF9D27C14FD3B5000868B43 /* KMZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF9D27D14FD3B5000868B43 /* en */,
+			);
+			name = KMZViewController.xib;
+			sourceTree = "<group>";
+		};
+		8AF9D28E14FD3B5000868B43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF9D28F14FD3B5000868B43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF9D29414FD3B5000868B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AF9D29514FD3B5000868B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF9D29714FD3B5000868B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YureYure/YureYure-Prefix.pch";
+				INFOPLIST_FILE = "YureYure/YureYure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AF9D29814FD3B5000868B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YureYure/YureYure-Prefix.pch";
+				INFOPLIST_FILE = "YureYure/YureYure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AF9D29A14FD3B5000868B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YureYure.app/YureYure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YureYure/YureYure-Prefix.pch";
+				INFOPLIST_FILE = "YureYureTests/YureYureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8AF9D29B14FD3B5000868B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YureYure.app/YureYure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YureYure/YureYure-Prefix.pch";
+				INFOPLIST_FILE = "YureYureTests/YureYureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF9D25D14FD3B5000868B43 /* Build configuration list for PBXProject "YureYure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF9D29414FD3B5000868B43 /* Debug */,
+				8AF9D29514FD3B5000868B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF9D29614FD3B5000868B43 /* Build configuration list for PBXNativeTarget "YureYure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF9D29714FD3B5000868B43 /* Debug */,
+				8AF9D29814FD3B5000868B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF9D29914FD3B5000868B43 /* Build configuration list for PBXNativeTarget "YureYureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF9D29A14FD3B5000868B43 /* Debug */,
+				8AF9D29B14FD3B5000868B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF9D25A14FD3B5000868B43 /* Project object */;
+}
